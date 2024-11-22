@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "pol_list.h": "c",
-        "pol_primitives.h": "c",
-        "stddef.h": "c",
-        "pol_print.h": "c"
-    }
-}
