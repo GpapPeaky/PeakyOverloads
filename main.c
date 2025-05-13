@@ -2,11 +2,13 @@
 
 Uint32 main(void){
 
-    POL_SizeOfTypePrint(Sint64);
-    POL_SizeOfTypePrint(Sint32);
-    POL_SizeOfTypePrint(Sint16);
-    POL_SizeOfTypePrint(Sint8);
-    POL_SizeOfTypePrint(Reference);
+    void* p1;
+    void* p2 = POL_AllocateMemory(5, 2);
+    void* p3 = POL_AllocateMemory(10, 1);
+
+    POL_DeallocateMemory(p2);
+    POL_DeallocateMemory(p3);
+    POL_DeallocateMemory(p1);
 
     return 0;
 }
