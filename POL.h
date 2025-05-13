@@ -1,6 +1,14 @@
 #ifndef __POL_H__
 /**
  * @brief PeakyOverload library, for C/C++ types
+ * 
+ * @note I strongly recomment the user to
+ * add this flag in the compilation:
+ * 
+ * -ftrivial-auto-var-init=zero
+ * 
+ * This will set all variable declarations, default to 0
+ * since there isn't any way native to c that does this by directive
  */
 #define __POL_H__
 

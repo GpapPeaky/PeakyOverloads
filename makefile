@@ -1,4 +1,4 @@
-CC = gcc
+CC = gcc -ftrivial-auto-var-init=zero
 EXECNAME = prog
 
 SRC = \
